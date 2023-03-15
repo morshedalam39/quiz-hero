@@ -23,8 +23,8 @@ startQuiz.addEventListener("click", () => {
 
   let x = setInterval(() => {
     if (counterNum < 0) {
-      coutDown.classList.remove("flex");
-      coutDown.classList.add("hidden");
+      countDown.classList.remove("flex");
+      countDown.classList.add("hidden");
       counterNum = 3;
       count = 0;
       timer = null;
@@ -57,7 +57,7 @@ const displayQuiz = (data) => {
     quizContainer.innerHTML = "";
     return;
   }
-
+console.log(data)
   data.forEach((quiz, i) => {
     quizContainer.innerHTML += `<div class="m-3 py-3 px-4 shadow-sm rounded">
   <div class="flex items-center">
