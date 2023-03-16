@@ -16,8 +16,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
     <title>blog</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
     
 </head>
 <body>
@@ -36,6 +38,81 @@
           </button>
         </nav>
       </header>
+
+      <main class="mt-5 bg-slate-50">
+        
+<div id="accordion-color" data-accordion="collapse" data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
+  <h2 id="accordion-color-heading-1">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
+      <span>What is the difference between map,forEach,filter,find?</span>
+      <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+    </button>
+  </h2>
+  <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
+    <div class="p-5 font-light border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+<strong ><li class="mb-2 text-black-500 dark:text-gray-400"> <b class="font-bold">Map():</b> Map only works on arrays. To perform operations on all elements of an array, map is executed on that array, and map does a number of operations on that array and returns a new array.</li></strong>
+
+<strong><li class="mb-2 text-black-500 dark:text-gray-400"> <b class="font-bold">forEach():</b> Map is used to execute the same code on every element in an array but does not change the array and it doesn't return anything.</li></strong>
+
+<strong><li class="mb-2 text-black-500 dark:text-gray-400"> <b class="font-bold">filter():</b> The filter method is used to get certain values inside the array. Means a condition has to be given and the value will be found according to that condition.</li></strong>
+
+<strong><li class="mb-2 text-black-500 dark:text-gray-400"> <b class="font-bold">find()</b> find returns only the value of the first element in the array that satisfies the provided testing in the function.</li></strong>
+
+    </div>
+  </div>
+  <h2 id="accordion-color-heading-2">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-2" aria-expanded="false" aria-controls="accordion-color-body-2">
+      <span>what different local storage session storage cookies ?</span>
+      <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+    </button>
+  </h2>
+  <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
+    <div class="p-5 font-light border border-b-0 border-gray-200 dark:border-gray-700">
+      <strong><li class="mb-2 text-black-500 dark:text-gray-400"><b class="font-bold">Local storage:</b> Local storage is storing data that the user will need to access later, such as offline data.If user close browser, shut down the machine data stored the local storage.It is useful storage for user.</li></strong>
+      <strong><li class="mb-2 text-black-500 dark:text-gray-400"><b class="font-bold">Session storage:</b> Local storage is cleared when the session ends, either by closing the browser or by expiring the session. But session storage is great way to improve the performance of security and privacy for usersbecause when user close the browser users all data removed.</li></strong>
+      <strong><li class="mb-2 text-black-500 dark:text-gray-400"><b class="font-bold">cookies:</b>  Cookies are text files with small pieces of data like a username and password that are used to identify your computer as you use a computer network. Specific cookies known as HTTP cookies are used to identify specific users and improve your web browsing experience.</li></strong>
+      
+    </div>
+  </div>
+  <h2 id="accordion-color-heading-3">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-3" aria-expanded="false" aria-controls="accordion-color-body-3">
+      <span>What is EventLoop?</span>
+      <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+    </button>
+  </h2>
+  <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
+    <div class="p-5 font-light border border-t-0 border-gray-200 dark:border-gray-700">
+      <strong> <li class="mb-2 text-black-500 dark:text-gray-400"><b class="font-bold">Event loop:</b>   An event loop in JavaScript is a single thread that handles all the asynchronous callbacks, such as user inputs, network requests, and other events.
+        The event loop is a continuous process that checks the call stack and task queue. When the call stack is empty, it retrieves the first task in the queue and executes its corresponding callback function.</li></strong>
+    </div>
+  </div>
+  <h2 id="accordion-color-heading-4">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-4" aria-expanded="false" aria-controls="accordion-color-body-4">
+      <span>'quizTimer' what does this function do?</span>
+      <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+    </button>
+  </h2>
+  <div id="accordion-color-body-4" class="hidden" aria-labelledby="accordion-color-heading-3">
+    <div class="p-5 font-light border border-t-0 border-gray-200 dark:border-gray-700">
+      <strong> <li class="mb-2 text-black-500 dark:text-gray-400">quiztimer first takes a single parameter named dismiss. This function will first check whether the dismiss parameter is truthful, if it is truthful then it will clear the interval time and return it and if it is falsy then it will continue. The function setInterval() method sets up an interval timer which is every 1000 milliseconds. (1 second) Repeats a function. The repeat function displays a countdown timer in minutes and seconds. The timer starts at 0 and increments by 1 every second. Minutes and seconds are calculated using the Math.floor() method by dividing the total number of seconds by 60 for minutes and the modulo operator (%) to get the remainder for seconds.</li></strong>
+    </div>
+  </div>
+
+  <h2 id="accordion-color-heading-5">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-5" aria-expanded="false" aria-controls="accordion-color-body-5">
+      <span>'chooseQuiz' what does this function do?</span>
+      <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+    </button>
+  </h2>
+  <div id="accordion-color-body-5" class="hidden" aria-labelledby="accordion-color-heading-5">
+    <div class="p-5 font-light border border-t-0 border-gray-200 dark:border-gray-700">
+      <strong> <li class="mb-2 text-black-500 dark:text-gray-400">The chooseQuiz function takes two arguments.It checks the answer using array's find method, passing a callback function that checks whether the id property of the answer . User can select their own choosing ans for this function.</li></strong>
+    </div>
+  </div>
+  
+</div>
+
+      </main>
       
 </body>
 </html>
